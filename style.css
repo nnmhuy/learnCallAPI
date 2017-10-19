@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+table tr th:last-child, table tr td:last-child{
+    width: 100px;
+}
